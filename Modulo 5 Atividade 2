@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Listas e Tabelas</title>
+</head>
+
+
+<body>
+    <h1>5 metas</h1>
+    <ul>
+        <li>Arrumar um emprego</li>
+        <li>Comprar uma casa</li>
+        <li>Comprar um carro</li>
+        <li>Ter uma vida saudável</li>
+        <li>Sair mais de casa</li>
+    </ul>
+
+    <h1>Top 5 frutas favoritas</h1>
+    <ol type="i">
+        <li>Morango</li>
+        <li>Pessêgo</li>
+        <li>Uva</li>
+        <li>Maçã</li>
+        <li>Banana</li>
+    </ol>
+
+    <h1>Hoobies favoritos</h1>
+    <dl>
+        <dt>Jogar videogame</dt>
+        <dd>Cresci jogando e continuo até hoje, provavelmente é uma das coisas que vou fazer a vida toda.</dd>
+        <dt>Assistir coisas</dt>
+        <dd>Pode ser filmes, séries ou animes. Se me chama a atenção eu irei assistir, mesmo que ache ruim depois.</dd>
+    </dl>
+
+    <h1>3 Estados, 3 Cidades</h1>
+    <ul>
+        <li><b>Paraná</b></li>
+            <ul>
+                <li>Curitiba</li>
+                <li>Maringá</li>
+                <li>Guaratuba</li>
+            </ul>
+
+        <li><b>Santa Catarina</b></li>
+        <ul>
+            <li>Florianópolis</li>
+            <li>Blumenau</li>
+            <li>Joinville</li>
+        </ul>
+
+        <li><b>São Paulo</b></li>
+        <ul>
+            <li>São Paulo</li>
+            <li>São José do Rio Preto</li>
+            <li>Guarulhos</li>
+        </ul>
+    </ul>
+
+    <h1>Tabela de Produtos</h1>
+    <table>
+        <tr>
+            <th>Produtos</th>
+            <th>Preço</th>
+        </tr>
+
+        <tr>
+            <td>Chinelo</td>
+            <td>25,00 reais</td>
+        </tr>
+
+        <tr>
+            <td>Sapato</td>
+            <td>200,00 reais</td>
+        </tr>
+
+        <tr>
+            <td>Bermuda</td>
+            <td>75,00 reais</td>
+        </tr>
+    </table>
+</body>
+
+
+</html>
