@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <style>
+            p {
+                font-size: 40px;
+            }
+
+            div p {
+                background-color: yellow;
+            }
+
+            div > p {
+                background-color: red;
+            }
+
+            div + p {
+                background-color: green;
+            }
+
+            span ~ p {
+                background-color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <p>Esse parágrafo tem que estar em vermelho.</p>
+            <span>
+                <p>Esse parágrafo tem que estar em amarelo.</p>
+            </span>
+        </div>
+        <p>Esse parágrafo tem que estar em verde.</p>
+        
+        <span>
+            <p>Esse aqui é só pra fazer o último funcionar.</p>
+        </span>
+        <p>Esse parágrafo tem que estar em azul.</p>
+        <p>Mais azul.</p>
+
+    </body>
+
+</html>

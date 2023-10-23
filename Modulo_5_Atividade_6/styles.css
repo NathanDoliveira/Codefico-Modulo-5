@@ -1,0 +1,13 @@
+#paragrafo {
+    color: green;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bloco {
+    background-color: red;
+}
+
+a:hover {
+         color: lawngreen;      
+}
