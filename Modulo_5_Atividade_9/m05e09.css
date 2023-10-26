@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hcb {
+    background-color: darkred;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 3px green, -3px 3px 3px green, 3px -3px 3px green, -3px -3px 3px green;
+}
+
+.menu ul {
+    margin: 10px;
+    padding: 0px;
+    list-style-type: none;
+    width: 100px;
+    background: fixed;
+}
+
+.menu li {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li:nth-child(1) {
+    background-color: lightcoral;
+}
+
+.menu li:nth-child(3) {
+    background-color: darkgoldenrod;
+}
+
+.menu li:nth-child(5) {
+    background-color: darkorchid;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.texto {
+    text-align: center;
+}
+
+.tabela {
+    text-align: center;
+    border: 2px solid firebrick;
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
+
+.tabela table {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tabela td, th {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.tabela tr:hover {
+    background-color: gold;
+}
+
+button {
+    background-color: darkorchid;
+    box-shadow: 3px 3px 3px 3px gray;
+    margin: 10px;
+}
+
+#pnl {
+    text-align: center;
+}
+
+.rodape {
+    background-color: darkred;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape a{
+    color: white;
+    text-decoration: none;
+}
+
+.rodape:hover {
+    background-color: green;
+}
